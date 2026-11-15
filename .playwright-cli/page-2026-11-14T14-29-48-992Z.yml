@@ -1,0 +1,257 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Midterm Academy home" [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: Midterm Academy
+        - generic [ref=e8]: Automatic Control · F030100
+      - navigation "Primary navigation" [ref=e9]:
+        - button "Home" [ref=e10] [cursor=pointer]
+        - button "Learn" [ref=e11] [cursor=pointer]
+        - button "Practice" [ref=e12] [cursor=pointer]
+        - button "Exam" [ref=e13] [cursor=pointer]
+        - button "Reference" [ref=e14] [cursor=pointer]
+  - main [ref=e16]:
+    - region "Automatic Control" [ref=e17]:
+      - paragraph [ref=e18]: NCKU · F030100
+      - heading "Automatic Control" [active] [level=1] [ref=e19]
+      - paragraph [ref=e20]: Lessons, worked problems, a practice exam, and reference material for this course.
+    - region "Begin with the first lesson" [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Your study desk
+        - heading "Begin with the first lesson" [level=2] [ref=e24]
+        - paragraph [ref=e25]: Start with feedback principles, or browse the full course sequence below.
+      - button "Start lesson" [ref=e26] [cursor=pointer]
+    - region "Seven lessons" [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: Course sequence
+          - heading "Seven lessons" [level=2] [ref=e33]
+        - button "Browse Learn" [ref=e34] [cursor=pointer]
+      - list [ref=e37]:
+        - listitem [ref=e38]:
+          - button "01 Feedback Principles Feedback Control & Why Sensitivity Drops Open vs. Closed Loop, Sensitivity , Disturbance vs. Noise, and the Stability Paradox Not started" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: "01"
+            - generic [ref=e41]:
+              - generic [ref=e42]: Feedback Principles
+              - generic [ref=e43]: Feedback Control & Why Sensitivity Drops
+              - generic [ref=e45]:
+                - text: Open vs. Closed Loop, Sensitivity
+                - generic [ref=e47]:
+                  - math [ref=e49]:
+                    - generic [ref=e52]:
+                      - generic [ref=e53]: S
+                      - generic [ref=e54]: G
+                      - generic [ref=e55]: T
+                  - generic [ref=e58]:
+                    - text: S
+                    - generic [ref=e62]:
+                      - generic [ref=e63]: G
+                      - generic [ref=e64]: T
+                - text: ", Disturbance vs. Noise, and the Stability Paradox"
+            - generic [ref=e68]: Not started
+        - listitem [ref=e71]:
+          - 'button "02 Section 2.3 (Types A & B) Linearization: Zooming In Until Curves Look Straight Taylor Expansion, Pendulum Ex 2.1, Perturbation vs. Tangent Line, and Graphical Slope Not started" [ref=e72] [cursor=pointer]':
+            - generic [ref=e73]: "02"
+            - generic [ref=e74]:
+              - generic [ref=e75]: Section 2.3 (Types A & B)
+              - generic [ref=e76]: "Linearization: Zooming In Until Curves Look Straight"
+              - generic [ref=e78]:
+                - text: Taylor Expansion, Pendulum Ex 2.1, Perturbation
+                - generic [ref=e80]:
+                  - math [ref=e82]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]: Δ
+                      - generic [ref=e86]: "y"
+                      - generic [ref=e87]: =
+                      - generic [ref=e88]: m
+                      - generic [ref=e89]: Δ
+                      - generic [ref=e90]: x
+                  - generic [aria-hidden] [ref=e91]:
+                    - generic [ref=e92]: Δy =
+                    - generic [ref=e93]: mΔx
+                - text: vs. Tangent Line, and Graphical Slope
+            - generic [ref=e94]: Not started
+        - listitem [ref=e97]:
+          - button "03 Section 2.4 (Type C) The Laplace Lens, Partial Fractions & FVT Non-Zero ICs (Ex 2.2), Zero-Input vs. Zero-State, Complex Poles (E2.31), and the FVT Stability Gate Not started" [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: "03"
+            - generic [ref=e100]:
+              - generic [ref=e101]: Section 2.4 (Type C)
+              - generic [ref=e102]: The Laplace Lens, Partial Fractions & FVT
+              - generic [ref=e103]: Non-Zero ICs (Ex 2.2), Zero-Input vs. Zero-State, Complex Poles (E2.31), and the FVT Stability Gate
+            - generic [ref=e104]: Not started
+        - listitem [ref=e107]:
+          - button "04 Sections 2.2 & 2.5 (Type D + DC Motor) Physical Modeling & The Field-Controlled DC Motor Through/Across Variables, Relative FBD Motion (E2.21/P2.26), KVL/KCL, and Prof. Chan’s 8-Slide Motor Derivation Not started" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: "04"
+            - generic [ref=e110]:
+              - generic [ref=e111]: Sections 2.2 & 2.5 (Type D + DC Motor)
+              - generic [ref=e112]: Physical Modeling & The Field-Controlled DC Motor
+              - generic [ref=e113]: Through/Across Variables, Relative FBD Motion (E2.21/P2.26), KVL/KCL, and Prof. Chan’s 8-Slide Motor Derivation
+            - generic [ref=e114]: Not started
+        - listitem [ref=e117]:
+          - button "05 Sections 2.6–2.7 (Type E) Block Diagram Algebra & Positive Feedback Sign Flips Canonical , Pickoff/Summer Move Rules, Ex 2.6 Positive Loop Trap & Signal-Equation Method Not started" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: "05"
+            - generic [ref=e120]:
+              - generic [ref=e121]: Sections 2.6–2.7 (Type E)
+              - generic [ref=e122]: Block Diagram Algebra & Positive Feedback Sign Flips
+              - generic [ref=e124]:
+                - text: Canonical
+                - generic [ref=e126]:
+                  - math [ref=e128]:
+                    - generic [ref=e130]:
+                      - generic [ref=e131]: G
+                      - generic [ref=e132]: /
+                      - generic [ref=e133]: (
+                      - generic [ref=e134]: "1"
+                      - generic [ref=e135]: ±
+                      - generic [ref=e136]: G
+                      - generic [ref=e137]: H
+                      - generic [ref=e138]: )
+                  - generic [aria-hidden] [ref=e139]:
+                    - generic [ref=e140]: G/(1 ±
+                    - generic [ref=e141]: GH)
+                - text: ", Pickoff/Summer Move Rules, Ex 2.6 Positive Loop Trap & Signal-Equation Method"
+            - generic [ref=e142]: Not started
+        - listitem [ref=e145]:
+          - 'button "06 Sections 3.1–3.6 (Type F) Inside the Black Box: State Variables & Companion Form Energy Storage States, Chan’s Notation, Monic Division Trap, Companion Matrices & Integrator Diagrams Not started" [ref=e146] [cursor=pointer]':
+            - generic [ref=e147]: "06"
+            - generic [ref=e148]:
+              - generic [ref=e149]: Sections 3.1–3.6 (Type F)
+              - generic [ref=e150]: "Inside the Black Box: State Variables & Companion Form"
+              - generic [ref=e152]:
+                - text: Energy Storage States, Chan’s
+                - generic [ref=e154]:
+                  - math [ref=e156]:
+                    - generic [ref=e158]:
+                      - generic [ref=e159]:
+                        - generic [ref=e160]: "y"
+                        - generic [ref=e161]: "1"
+                      - generic [ref=e162]: ","
+                      - generic [ref=e163]:
+                        - generic [ref=e164]: "y"
+                        - generic [ref=e165]: "2"
+                  - generic [ref=e167]:
+                    - generic [ref=e168]:
+                      - text: "y"
+                      - generic [ref=e169]: "1"
+                    - text: ","
+                    - generic [ref=e177]:
+                      - text: "y"
+                      - generic [ref=e178]: "2"
+                - text: Notation, Monic Division Trap, Companion Matrices & Integrator Diagrams
+            - generic [ref=e186]: Not started
+        - listitem [ref=e189]:
+          - 'button "07 Sections 3.6–3.7 (Type G) State Evolution: Eigenvalues, Resolvent , & Geometric , Characteristic Roots, Adjugate Sign Trap, Gate & Cramer Shortcut Not started" [ref=e190] [cursor=pointer]':
+            - generic [ref=e191]: "07"
+            - generic [ref=e192]:
+              - generic [ref=e193]: Sections 3.6–3.7 (Type G)
+              - generic [ref=e195]:
+                - text: "State Evolution: Eigenvalues, Resolvent"
+                - generic [ref=e197]:
+                  - math [ref=e199]:
+                    - generic [ref=e201]:
+                      - generic [ref=e202]: (
+                      - generic [ref=e203]: s
+                      - generic [ref=e204]: I
+                      - generic [ref=e205]: −
+                      - generic [ref=e206]: A
+                      - generic [ref=e207]:
+                        - generic [ref=e208]: )
+                        - generic [ref=e209]:
+                          - generic [ref=e210]: −
+                          - generic [ref=e211]: "1"
+                  - generic [aria-hidden] [ref=e212]:
+                    - generic [ref=e213]: (sI −
+                    - generic [ref=e214]:
+                      - text: A
+                      - generic [ref=e215]:
+                        - text: )
+                        - generic [ref=e216]: −1
+                - text: ","
+                - generic [ref=e223]:
+                  - math [ref=e225]:
+                    - generic [ref=e227]:
+                      - generic [ref=e228]: Φ
+                      - generic [ref=e229]: (
+                      - generic [ref=e230]: t
+                      - generic [ref=e231]: )
+                      - generic [ref=e232]: =
+                      - generic [ref=e233]:
+                        - generic [ref=e234]: e
+                        - generic [ref=e235]:
+                          - generic [ref=e236]: A
+                          - generic [ref=e237]: t
+                  - generic [aria-hidden] [ref=e238]:
+                    - generic [ref=e239]: Φ(t) =
+                    - generic [ref=e241]:
+                      - text: e
+                      - generic [ref=e242]: At
+                - text: "&"
+                - generic [ref=e249]:
+                  - math [ref=e251]:
+                    - generic [ref=e253]:
+                      - generic [ref=e254]: G
+                      - generic [ref=e255]: (
+                      - generic [ref=e256]: s
+                      - generic [ref=e257]: )
+                  - generic [ref=e259]: G(s)
+              - generic [ref=e261]:
+                - text: Geometric
+                - generic [ref=e263]:
+                  - math [ref=e265]:
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: e
+                      - generic [ref=e270]:
+                        - generic [ref=e271]: A
+                        - generic [ref=e272]: t
+                  - generic [ref=e275]:
+                    - text: e
+                    - generic [ref=e276]: At
+                - text: ", Characteristic Roots,"
+                - generic [ref=e283]:
+                  - math [ref=e285]:
+                    - generic [ref=e287]:
+                      - generic [ref=e288]: "2"
+                      - generic [ref=e289]: ×
+                      - generic [ref=e290]: "2"
+                  - generic [aria-hidden] [ref=e291]:
+                    - generic [ref=e292]: 2 ×
+                    - generic [ref=e293]: "2"
+                - text: Adjugate Sign Trap,
+                - generic [ref=e295]:
+                  - math [ref=e297]:
+                    - generic [ref=e299]:
+                      - generic [ref=e300]: Φ
+                      - generic [ref=e301]: (
+                      - generic [ref=e302]: "0"
+                      - generic [ref=e303]: )
+                      - generic [ref=e304]: =
+                      - generic [ref=e305]: I
+                  - generic [aria-hidden] [ref=e306]:
+                    - generic [ref=e307]: Φ(0) =
+                    - generic [ref=e308]: I
+                - text: Gate & Cramer Shortcut
+            - generic [ref=e309]: Not started
+    - region "Study tools" [ref=e312]:
+      - generic [ref=e314]:
+        - paragraph [ref=e315]: Along the way
+        - heading "Study tools" [level=2] [ref=e316]
+      - generic [ref=e317]:
+        - button "Practice problems" [ref=e318] [cursor=pointer]
+        - button "Practice exam" [ref=e321] [cursor=pointer]
+        - button "Reference" [ref=e324] [cursor=pointer]
+        - button "Problem classifier" [ref=e327] [cursor=pointer]
+        - button "Study plan" [ref=e330] [cursor=pointer]
+    - complementary "Materials and exam coverage" [ref=e333]:
+      - generic [aria-hidden] [ref=e334]: i
+      - generic [ref=e335]:
+        - paragraph [ref=e336]: Course scope
+        - heading "Materials and exam coverage" [level=2] [ref=e337]
+        - paragraph [ref=e338]: The available course materials identified in this academy cover Chapters 1–3 and Homework 1–4. Whether Chapters 4–6 are included on the midterm remains unresolved; confirm the current scope with the instructor or TA.
+        - button "See course notes in Reference" [ref=e339] [cursor=pointer]
+  - contentinfo [ref=e342]:
+    - generic [ref=e343]:
+      - generic [ref=e344]: Midterm Academy · Automatic Control
+      - generic [ref=e345]: Progress and last study location save to this browser when local storage is available.
+    - button "Course notes & scope" [ref=e346] [cursor=pointer]:
+      - text: Course notes & scope
+      - generic [aria-hidden] [ref=e347]: →

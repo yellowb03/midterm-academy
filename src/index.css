@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap');
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@layer base {
+  :root {
+    color-scheme: light;
+    font-family: "Source Sans 3", "Segoe UI", sans-serif;
+    --paper: #f7f5ef;
+    --paper-raised: #fffefa;
+    --paper-muted: #eeeae0;
+    --ink: #262922;
+    --ink-soft: #5f645b;
+    --ink-faint: #777b72;
+    --ink-secondary: #5f645b;
+    --ink-muted: #777b72;
+    --rule: #d9d7ce;
+    --rule-strong: #c8c9be;
+    --surface: #fffefa;
+    --surface-muted: #eeeae0;
+    --forest: #315746;
+    --forest-dark: #244435;
+    --forest-hover: #1e3a2d;
+    --forest-wash: #e8eee8;
+    --forest-tint: #f0f4ef;
+    --accent-warm: #a26037;
+    --focus-ring: #315746;
+    --caution-bg: #f5ecdc;
+    --caution-ink: #7a4e22;
+    --error-bg: #f6e9e5;
+    --error-ink: #8b3d31;
+    --success-bg: #e8eee8;
+    --success-ink: #315746;
+    --plot-1: #315746;
+    --plot-2: #a26037;
+    --plot-3: #60758b;
+  }
+
+  html {
+    min-width: 320px;
+    background: var(--paper);
+    color: var(--ink);
+    scroll-behavior: auto;
+  }
+
+  body {
+    min-width: 320px;
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Source Sans 3", "Segoe UI", sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button, input, select, textarea {
+    font: inherit;
+  }
+
+  button, a, input, select, textarea, summary {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    color: #fffefa;
+    background: var(--forest);
+  }
+
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-track { background: var(--paper); }
+  ::-webkit-scrollbar-thumb { background: #c8c9be; border: 2px solid var(--paper); border-radius: 8px; }
+  ::-webkit-scrollbar-thumb:hover { background: #a7ac9f; }
+}
+
+.academy-shell {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.academy-content {
+  width: min(100% - 40px, 1080px);
+  margin-inline: auto;
+  padding-block: 48px 72px;
+}
+
+.display-face { font-family: "Source Serif 4", Georgia, serif; }
+
+.academy-link {
+  color: var(--forest-dark);
+  text-decoration: underline;
+  text-decoration-color: #9aab9e;
+  text-underline-offset: 3px;
+}
+.academy-link:hover { text-decoration-color: currentColor; }
+
+.academy-button {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--forest);
+  border-radius: 5px;
+  padding: 9px 16px;
+  background: var(--forest);
+  color: #fffefa;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+.academy-button:hover { background: var(--forest-dark); border-color: var(--forest-dark); }
+.academy-button--quiet { background: transparent; color: var(--forest-dark); }
+.academy-button--quiet:hover { background: var(--forest-wash); }
+
+.academy-home h1, .academy-home h2, .academy-home h3 { color: var(--ink); }
+
+/* Technical pages remain reachable while they are migrated in later phases. */
+.katex-display {
+  margin: 0.65rem 0;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0.25rem;
+}
+.katex { font-size: 1.03em; color: inherit; text-transform: none; }
+.katex-display > .katex { font-size: 1.12em; }
+input[type="range"] { accent-color: var(--forest); }
+
+@media (max-width: 640px) {
+  .academy-content { width: min(100% - 32px, 1080px); padding-block: 32px 56px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+
+@media print {
+  html, body, .academy-shell { background: #fff !important; color: #111 !important; }
+  header, nav, footer, button { display: none !important; }
+  .academy-content { width: 100%; padding: 0; }
+}
